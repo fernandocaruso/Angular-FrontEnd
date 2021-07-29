@@ -1,0 +1,49 @@
+.background {
+
+
+  background-image: url(https://i.imgur.com/2TUPHXP.gif);
+  background-color: blueviolet;
+
+  min-height: 100px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.container {
+
+
+ background-image: url(https://imgur.com/hT6yJZJ.jpg);
+ padding: 180px;
+ min-height: 100vh;
+
+}
+
+.links {
+
+  color: white;
+}
+
+.background p {
+
+color: rgb(37, 30, 35);
+padding: 30px;
+font-size: 28px;
+font-family: 'Cinzel', serif;
+
+
+
+}
+
+
+.menu1 a {
+
+  padding: 15px;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-family: 'Kalam', cursive;
+
+
+}
