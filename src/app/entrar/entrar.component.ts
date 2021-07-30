@@ -31,6 +31,9 @@ usuarioLogin: UserLogin = new UserLogin()
       environment.foto = this.usuarioLogin.foto
       environment.id = this.usuarioLogin.id
 
+      console.log(environment.token)
+      console.log(environment.nome)
+
       this.router.navigate(['/home'])
     }, erro => {
       if (erro.status == 500) {

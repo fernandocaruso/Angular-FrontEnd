@@ -10,7 +10,8 @@ import { AuthService } from '../service/auth.service'; // injeção de dependên
 })
 export class CadastrarComponent implements OnInit {
 
-  user: User = new User
+  user: User = new User()
+  
   confirmarSenha: string
   tipoUsuario: string
 
@@ -24,13 +25,13 @@ export class CadastrarComponent implements OnInit {
   }
 
   confirmSenha(event: any) {
-    this.confirmarSenha = event.targe.value
+    this.confirmarSenha = event.target.value
 
   }
 
   tipoUser(event: any) {
 
-    this.tipoUsuario = event.targe.value
+    this.tipoUsuario = event.target.value
   }
 
   cadastrar() {

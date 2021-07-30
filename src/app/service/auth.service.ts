@@ -12,12 +12,12 @@ export class AuthService {
   constructor(private http: HttpClient) { }
 
 
-entrar (usuarioLogin: UserLogin): Observable<UserLogin> {
-    return this.http.post<UserLogin>('https://madahcaruso.herokuapp.com/usuarios/logar', usuarioLogin)
+    entrar (usuarioLogin: UserLogin): Observable<UserLogin> {
+      return this.http.post<UserLogin>("https://madahcaruso.herokuapp.com/usuarios/logar", usuarioLogin)
   }
 
-cadastrar(user: User): Observable<User> {
-  return this.http.post<User>('https://madahcaruso.herokuapp.com/usuarios/cadastrar', user)
+    cadastrar(usuario: User): Observable<User> {
+      return this.http.post<User>("https://madahcaruso.herokuapp.com/usuarios/cadastrar", usuario)
   // quando utilizar a função cadastrar (post), usar a função de POST no http, no endereço heroku, e passando o USUÁRIO.
   // vindo da User, o usuário terá id, nome, usuario, foto, senha, etc.
   // *** utilizar o banco de dados do heroku até o .com {não copiar o swagger_ui}! *** \\
