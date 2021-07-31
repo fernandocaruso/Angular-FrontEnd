@@ -1,13 +1,26 @@
 .fs-54 {
 
 
-  font-size: 54pt;
+  font-size: 40pt;
+  padding: 10px;
+  font-family: 'Spartan', sans-serif;
 
 
 }
 
 .fs-18 {
 
-font-size: 18pt;
+  font-family: 'Sacramento', cursive;
+  font-size: 38pt;
+  color: rgb(210, 187, 231);
+
+}
+
+.fs-20 {
+
+  font-family: 'Sacramento', cursive;
+  font-size: 38pt;
+  color: rgb(237, 150, 250);
+  margin-right: 100px;
 
 }
