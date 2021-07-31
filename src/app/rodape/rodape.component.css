@@ -1,0 +1,38 @@
+ul.social-network {
+  display: inline;
+  list-style: none;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0;
+  padding: 2px;
+}
+
+.fa {
+  font-size: 24pt;
+  color: white;
+  padding: 8px;
+}
+
+
+.papai {
+
+  display: inline;
+  color: rgb(156, 123, 148);
+  font-size: 18px;
+
+
+}
+
+.mamae {
+
+  display: inline;
+  color: rgb(156, 123, 148);
+  font-size: 18px;
+
+
+
+}
+

@@ -34,7 +34,7 @@ usuarioLogin: UserLogin = new UserLogin()
       console.log(environment.token)
       console.log(environment.nome)
 
-      this.router.navigate(['/home'])
+      this.router.navigate(['/inicio'])
     }, erro => {
       if (erro.status == 500) {
         alert('Usuário ou senha incorretos!')
