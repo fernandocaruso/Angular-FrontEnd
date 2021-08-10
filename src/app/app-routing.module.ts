@@ -11,8 +11,11 @@ import { HomeComponent } from './home/home.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { TemaComponent } from './tema/tema.component';
 
+  // basicamente: se a página der em branco (pois não temos página inicial), será redirecionada através do redirectTo para uma página.
+  // logo, a página Entrar acaba sendo a inicial.
+
 const routes: Routes = [
-  {path: '', redirectTo: 'inicio', pathMatch: 'full'}, // página inicial: caminho vazio = aba entrar! - pathMatch = compatibilidade total.
+  {path: '', redirectTo: 'entrar', pathMatch: 'full'}, // página inicial: caminho vazio = aba entrar! - pathMatch = compatibilidade total.
 
   {path: 'entrar', component: EntrarComponent}, // path da página entrar. Atentar-se a não colocar / antes do caminho.
   {path: 'cadastrar', component: CadastrarComponent}, // path da página cadastrar. Atentar-se a não colocar / antes do caminho.
@@ -27,9 +30,6 @@ const routes: Routes = [
   {path: 'postagem-edit/:id', component: PostagemEditComponent},
   {path: 'postagem-delete/:id', component: PostagemDeleteComponent},
   {path: 'user-edit/:id', component: UserEditComponent}
-
-  // basicamente: se a página der em branco (pois não temos página inicial), será redirecionada através do redirectTo para uma página.
-  // logo, a página Entrar acaba sendo a inicial.
 ];
 
 @NgModule({

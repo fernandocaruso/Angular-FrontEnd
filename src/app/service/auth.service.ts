@@ -35,7 +35,7 @@ getByIdUser (id: number): Observable<User> {
 }
 
 putUser(user: User): Observable<User>{
-  return this.http.put<User>('https://madahcaruso.com/usuarios/alterar', user)
+  return this.http.put<User>('https://madahcaruso.herokuapp.com/usuarios/alterar', user)
 }
 
 logado(){
